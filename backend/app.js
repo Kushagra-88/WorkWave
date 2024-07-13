@@ -10,7 +10,7 @@ import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
 
 const app = express();
-
+config();
 app.use(
   cors({
     origin: [process.env.FRONTEND_URL],
